@@ -1,0 +1,47 @@
+.auth {
+    max-width: 350px;
+    margin: 200px auto 0 auto ;
+    
+}
+
+.auth__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.auth__check {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.auth__text {
+    padding: 5px;
+    height: 15px;
+   
+}
+
+.auth__btn {
+    margin: 0 auto;
+    padding: 5px 40px;
+    background: green;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.auth__btn:hover {
+    background: yellowgreen;
+}
+
+.auth__error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
